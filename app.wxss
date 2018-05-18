@@ -35,3 +35,29 @@ page{
         transform: scale(1);
     }
 }
+.weui-icon-cancel {
+    color: #F43530;
+    font-size: 22px;
+}
+[class^="weui-icon-"], [class*=" weui-icon-"] {
+    display: inline-block;
+    vertical-align: middle;
+    font: normal normal normal 14px/1 "weui";
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.weui-icon-cancel:before {
+    content: "\EA0D";
+}
+[class^="weui-icon-"]:before, [class*=" weui-icon-"]:before {
+    display: inline-block;
+    margin-left: .2em;
+    margin-right: .2em;
+    position: relative;
+    top: -95px;
+    right: -65px;
+}
+.hide{
+    display:none;
+}

@@ -31,12 +31,14 @@ Page({
       url:API_BASE,
       success: (res) => {
         // console.log(res);
+        //console.log(res.data.data.total);24
         this.setData({
           isLoading: false,
           entities: res.data.data.articles,
           currentPage: 1,
           totalPages: res.data.data.totalPages,
-          total: res.data.data.total
+          total: res.data.data.total,
+          
         })
       }
     })
